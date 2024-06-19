@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import Logo from './images/Logo.svg';
+// must put ROUTES????
 
 function Nav() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -27,7 +28,6 @@ return(
         <li><a href="/login">Login</a></li>
       </ul>
 </nav>
-
 );
 }
 

@@ -1,41 +1,4 @@
 
-body {
-  display:grid;
-  height: 150vh;
-grid-template-rows: auto 1fr auto;
-font-family: 'Markazi Text', serif;
-}
-header{
-  display: inline-flex;
-}
-header img {
-  display: block;
-align-items: left;
-max-width:60%;
-max-height: 50%;
 
-}
-nav{
-  border-radius: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-nav ul{
-  list-style: none;
-  font-size: 2rem;
-  font: 'Karla';
-}
-nav ul li{
-  display: inline-block;
-  margin: 2rem;
-}
-main{
-  display:inline-flexbox;
-  background-color: #495E57;
-  color:#fff;
-}
-main h1{
-  color:#F4CE14;
-}
 
 
