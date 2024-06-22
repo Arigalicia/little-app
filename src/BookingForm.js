@@ -36,7 +36,7 @@ const BookingForm = (props) => {
               </select>
             </div>
             <div>
-              <label htmlFor="bookGuests">Number of Guests:</label>
+              <label htmlFor="bookGuests">Guests:</label>
               <input id="bookGuests" min="1" value={guests} onChange={(e) => {setGuests(e.target.value)}} type={"number"} placeholder={0} max={10} required></input>
             </div>
             <div>
@@ -49,7 +49,7 @@ const BookingForm = (props) => {
               </select>
             </div>
             <div className="btnReceive">
-              <input aria-label="On Click" type={"submit"} value={"Make Your Reservation"}></input>
+              <input aria-label="On Click" type={"submit"} value={"Reserve a Table"}></input>
             </div>
           </fieldset>
         </form>

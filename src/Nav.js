@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from './images/Logo.svg';
-// must put ROUTES????
+// must put LINKS
 
 function Nav() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -20,12 +20,12 @@ return(
         <div className="bar"></div>
       </div>
 <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
-        <li><a href="/home">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/menu">Menu</a></li>
-        <li><a href="/reservations">Reservations</a></li>
-        <li><a href="/orderOnline">Order online</a></li>
-        <li><a href="/login">Login</a></li>
+        <li><Link to="/">Home</Link></li>
+       <li><Link to="/about">About</Link></li>
+       <li><Link to="/menu">Menu</Link></li>
+        <li><Link to="/reservations">Reserve a Table</Link></li>
+        <li><Link to="/orderOnline">Order Online</Link></li>
+        <li><Link to="/login">Login</Link></li>
       </ul>
 </nav>
 );

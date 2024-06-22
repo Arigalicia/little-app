@@ -14,7 +14,7 @@ return(
             <button aria-label="On Click">Reserve a Table</button>
           </Link>
     <div className="header-img">
-    <img src={HeadImg} alt="Header image"/>
+    <img src={HeadImg} alt="Food plate"/>
     </div>
     </section>
 </header>
