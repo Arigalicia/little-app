@@ -1,15 +1,15 @@
 // Main.js
 
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import Header from './Header';
 import ConfirmedBooking from './ConfirmedBooking';
 import BookingPage from './BookingPage';
 import { initializeStore, fetchAPI } from './API';
 
 const Main = () => {
-
-  const [date, setDate] = useState(null);
+  // eslint-disable-next-line
+  const [date, setDate] = useState('');
   const [availableTimes, setAvailableTimes] = useState(["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"])
 
   useEffect(() => {

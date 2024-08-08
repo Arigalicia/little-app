@@ -1,7 +1,3 @@
-// API.js
-import { useState} from "react";
-
-
 
 // Random generator function
 const seededRandom = function (seed) {

@@ -1,10 +1,10 @@
 import './App.css';
 import Main from './Main';
 import Nav from './Nav';
-//import Header from './Header';
-import BookingPage from './BookingPage';
 import About from './About';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './Footer';
+import Menu from './Menu';
+import { Route, Routes } from 'react-router-dom';
 
 
 function App() {
@@ -15,6 +15,8 @@ function App() {
       <Routes>
       <Route path="/about" element={<About />} />
       </Routes>
+      <Menu />
+      <Footer />
       </div>
   );
 }
