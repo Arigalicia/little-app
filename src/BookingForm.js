@@ -16,7 +16,7 @@ const BookingForm = ({ availableTimes = [], onDateChange, submitForm }) => {
   const handleDateChange = (e) => {
     const selectedDate = new Date(e.target.value);
     setLocalDate(selectedDate);
-  };
+  onDateChange(selectedDate) };
 
   return (
     <header>

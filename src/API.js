@@ -42,8 +42,6 @@ export const fetchAPI = (date) => {
   return result;
 };
 
-// Handles form submission (simply returns true for now)
-
 
 // Initialize localStorage with empty booking data if it doesn't exist
 export const initializeStore = () => {

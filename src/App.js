@@ -4,7 +4,6 @@ import Nav from './Nav';
 //import Header from './Header';
 import BookingPage from './BookingPage';
 import About from './About';
-import ConfirmedBooking from './ConfirmedBooking';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
