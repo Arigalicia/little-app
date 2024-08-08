@@ -12,12 +12,10 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <Main />
       <Routes>
       <Route path="/about" element={<About />} />
-        <Route path="/reservations" element={<BookingPage />} />
-        <Route path="/confirmed" element={<ConfirmedBooking />} />
       </Routes>
-      <Main />
       </div>
   );
 }

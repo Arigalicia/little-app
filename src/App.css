@@ -76,7 +76,7 @@ nav ul li a:hover{
 .header section {
 padding: 10px 13%;
 position: relative;
-}
+}*/
 
 
 h1 {
@@ -123,7 +123,7 @@ button {
 }
 
 
-form, .comfirm{
+form, .confirm{
   padding: 10px 13%;
 }
 
@@ -142,7 +142,7 @@ input, label{
   border: none;
   outline: none;
   border-radius: 2px;
-}
+}*/
 
 .btnReceive input{
   padding: 12px 16px;
@@ -154,7 +154,7 @@ input, label{
 
 }
 
-.comfirm span{
+.confirm span{
   color: blue;
 }
 
