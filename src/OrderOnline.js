@@ -2,7 +2,7 @@ import React from "react";
 import recipes from './Recipes.js';
 import Swal from 'sweetalert2';
 
-const Menu = () => {
+const OrderOnline = () => {
     const handleOrder = (id) => {
         const selectedRecipe = recipes.find((recipe) => recipe.id === id);
 
@@ -26,7 +26,7 @@ const Menu = () => {
     return (
         <div className="menu-container">
             <div className="menu-header">
-                <h2>This Week's Specials!</h2>
+                <h2>Order from the comfort of your home!</h2>
                 <button>Online Menu</button>
             </div>
             <div className="cards">
@@ -48,4 +48,4 @@ const Menu = () => {
     );
 }
 
-export default Menu;
+export default OrderOnline;

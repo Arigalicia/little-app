@@ -191,12 +191,18 @@ input, label{
   background: #a9c8be;
   border-radius: 8px;
 }
+.menu-image {
+  width: 350px;    /* Set a fixed width */
+  height: 250px;   /* Set a fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 8px; /* Optional: Adds rounded corners to the images */
+}
 
-.menu-container img{
+/*.menu-container img{
   width: 100%;
   height: 233px;
   border-radius: 8px;
-}
+}*/
 
 .menu-content{
   padding: 5px 15px;
