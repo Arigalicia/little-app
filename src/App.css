@@ -76,10 +76,10 @@ nav ul li a:hover{
 .header section {
 padding: 10px 13%;
 position: relative;
-}*/
+}
 
 
-h1 {
+.header h1 {
   color: #F4CE14;
   font-size: 40px;
 }
@@ -155,7 +155,7 @@ input, label{
 }
 
 .confirm span{
-  color: blue;
+  color: #F4CE14;
 }
 
 
